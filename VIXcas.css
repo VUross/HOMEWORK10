@@ -1,0 +1,272 @@
+#welcome{
+	position: relative;
+	background: url("bg.jpg");
+	height: 680px;
+	border: 3px solid green;
+}
+
+.cleaX{
+	clear: both;
+	content:" ";
+}
+
+.win{
+	position: absolute;
+	display: inline-block;
+	top: 200px;
+	left: 50px;
+	width: 720px;
+	height: 90px;
+	color: #fff;
+	font-family: "Montserrat", Sans-Serif;
+	font-weight: 700;
+	font-size: 80px;
+	letter-spacing: 1px;
+	line-height: 24px;
+}
+
+.subwin{
+	position: absolute;
+	top: 310px;
+	left: 50px;
+	width: 340px;
+	height: 40px;
+	display: inline-block;
+	background-color: #0cbb58;
+	color: #fff;
+	font-family: "Montserrat", Sans-serif;
+	font-size: 20px;
+	line-height: 40px;
+	letter-spacing: .5px;
+}
+
+.pointshit{
+	font-size: 50px;
+	position: absolute;
+	bottom: 17px;
+	color: #fff;
+	left: 50%;
+}
+
+#welcome nav{
+	position: fixed;
+	width: 100%;
+}
+
+#welcome nav li{
+	list-style-type: none;
+}
+
+#welcome nav li a{
+	float: right;
+	text-decoration: none;
+	font-size: 12px;
+	color: white;
+	padding: 10px 20px 10px 20px;
+}
+
+#welcome nav li a:hover{
+	color: green;
+}
+
+#about{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 850px;
+	background-color: #e2e3e4;
+}
+
+/*.tekst{
+	position: absolute;
+	top: 80px;
+	left: 0;
+}*/
+
+.tekst h1{
+	margin-top: 0px;
+	padding-top: 100px;
+	text-align:center;
+	font-family: "Montserrat", Sans-serif;
+	font-size: 37px;
+	font-weight: 700;
+	letter-spacing: .7px;
+	color: #333;
+}
+
+.tekst p{
+	margin: 0;
+	margin-left: 200px;
+	margin-right: 200px;
+	text-align: center;
+	line-height: 24px;
+	display: block;
+	font-family: "Montserrat", Sans-serif;
+	font-size: 17px;
+	font-weight: 500;
+	letter-spacing: .5px;
+	color: #969696;
+}
+
+
+#summary{
+	position: relative;
+	width: 60%;
+	height: 400px;
+	top: 0px;
+    left: 200px;
+    background-color: #FFF;
+    margin-top: 25px;
+    padding: 60px;
+    border: 1px dotted oran;
+}
+
+#lefty img{
+	margin-top: 30px;
+	margin-right: 30px;
+	width: 90px;
+	height: 90px;
+	border-radius: 50%;
+	bottom: 25px;
+	float: right;
+}
+
+#lefty{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50%;
+}
+
+#lefty h5{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #969696;
+    line-height: 24px;
+    letter-spacing: .5px;
+    text-align: right;
+    margin-right: 30px;
+}
+
+#lefty h5 span{
+	color: #2EB267;
+	font-weight: 400;
+}
+
+#righty{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 50%;
+	height: 400px;
+	border: 1px solid pink;
+}
+
+#righty h5{
+    font-family: "Montserrat", Sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: #969696;
+    line-height: 24px;
+    letter-spacing: 1px;
+    text-align: left;
+    margin-left: 30px;
+    display: block;
+}
+
+#righty h5 span{
+	font-family: "Montserrat", Sans-serif;
+	font-color: #969696;
+	font-size: 22px;
+	margin-top: 30px;
+}
+
+#prbr{
+	width: 80%;
+	height: 20px;
+	display: inline-block;
+	font-family: "Montserrat", Sans-serif;
+	background-color: #0CBB58;
+	box-shadow: none;
+	float: left;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+}
+
+#portfolio{
+	position: relative;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 800px;
+	border: 3px dotted purple;
+}
+
+#portfolio h2{
+	width: 100%;
+	color: #2A2A2A;
+	font-size: 35px;
+	display: inline-block;
+	font-family: "Montserrat", Sans-serif;
+	font-weight: 900;
+	text-align: center;/*
+	padding-top: 30px;*/
+}
+
+#portfolio nav{
+	position: absolute;
+	top: 90px;
+	left: 300px;
+	width: 420px;
+	height: 20px;
+}
+
+#portfolio nav ul{
+	display: inline;
+	list-style-type: none;
+}
+
+#portfolio nav ul li{
+	display: inline;
+}
+
+#portfolio nav li a{
+	text-decoration: none;
+	font-family: "Montserrat", Sans-serif;
+	display: inline;
+	color: #E2E3E4;
+	font-size: 12px;
+	padding: 0px 10px 0px 10px;
+}
+
+#portfolio nav li a:hover{
+	color: #242424;
+}	
+
+#portfolio nav li a span{
+	color: #C1C1C1;
+}
+
+#portfolio nav li a span:hover{
+	color: #242424;
+}
+
+.wrap img{
+	width: 340px;
+	height: 220px;
+	padding-right: 30px;
+	overflow: hidden;	  
+	transition: .7s ease-in;
+
+}
+
+
+.wrap:hover img:not(:hover) { 
+    filter: grayscale(1);
+    opacity: .75;
+}
+
+
